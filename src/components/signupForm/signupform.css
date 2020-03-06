@@ -1,0 +1,67 @@
+body,html{
+    /*background: rgb(18, 14, 36);*/
+    font-family: 'tajawal'
+}
+
+.signUpForm-icon-Tm{
+    height : 6rem !important;
+    width: 8rem !important;
+}
+
+.signUpForm-head-Tm{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.signUpForm-container-Tm{
+    background: white;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    padding: 1rem 4rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    animation: formContainer 1.75s ease-out;
+}
+
+.signUpForm-error-Tm{
+    color: red;
+}
+
+.signUpForm-createUsingBlock-Tm{
+    display: flex;
+    text-align: center !important;
+    margin: auto !important;
+}
+
+.signUpForm-Facebook-Tm{
+ margin-bottom: 1rem !important;   
+}
+
+.signUpForm-gmail-Tm{
+    width: 53px;
+    height: 53px;
+    margin-left: 1rem;
+}
+
+.signUpForm-createAccount-Tm{
+    padding: 0.5rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    text-decoration: none !important;
+}
+
+@keyframes formContainer{
+    0%{
+        opacity: 0;
+      }
+     30%{
+        opacity: 0;
+      }
+      50%{
+        opacity: 0.5;
+      }
+      85%{
+        opacity: 1;
+      }
+}
